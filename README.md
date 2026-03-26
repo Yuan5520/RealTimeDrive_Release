@@ -6,7 +6,7 @@
 
 | 依赖仓库 | 说明 | 链接 |
 |----------|------|------|
-| **BaseToolkit** (必需) | 基础框架层，提供 IEngine、Persistence、DBManager 等模块及 MySQL 插件 | [BaseToolkit](https://github.com/Yuan5520/BaseToolkit) |
+| **BaseToolkit** (必需) | 基础框架层，提供 IEngine、Persistence、DBManager 等模块及 MySQL 插件 | [BaseToolkit_Release](https://github.com/Yuan5520/BaseToolkit_Release) |
 
 > **请先导入 BaseToolkit 仓库，再导入本仓库。** RealDrive 依赖 Base 提供的引擎抽象层 (IEngine)、数据持久化 (Persistence)、数据库管理 (DBManager) 以及 MySQL/JSON 序列化插件。
 
@@ -20,7 +20,7 @@
 
 ## 安装
 
-1. 确保已导入 [BaseToolkit](https://github.com/Yuan5520/BaseToolkit)
+1. 确保已导入 [BaseToolkit_Release](https://github.com/Yuan5520/BaseToolkit_Release)
 2. 将本仓库克隆或下载到 Unity 项目的 `Assets/` 目录下
 3. 确保以下目录结构正确放置：
    - `Assets/RealDrive5/`
@@ -32,7 +32,7 @@
 
 - Unity 2021.3 LTS 或更高版本
 - .NET Standard 2.1 / .NET Framework 4.x
-- 已安装 CyberYuan-Base
+- 已安装 [BaseToolkit_Release](https://github.com/Yuan5520/BaseToolkit_Release)
 - 网络连接（用于与机器人控制器通信）
 
 ---
